@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <script src="board.js" defer></script>
+    <script src="game.js" defer></script>
+    <title>Quad 2048</title>
+</head>
+<body>
+    <div class="heading"><h1>Quad 2048</h1></div>
+    
+    <div class="game">
+        <div class="score" id="score">Score: </div>
+        <div id="board1"></div>
+        <div id="board2"></div>
+        <div id="board3"></div>
+        <div id="board4"></div>
+    </div>
+
+    <div class="gameOver">
+        <div id="b1GameOver">Game Over!</div>
+        <div id="b2GameOver">Game Over!</div>
+        <div id="b3GameOver">Game Over!</div>
+        <div id="b4GameOver">Game Over!</div>
+    </div>
+
+    <div class="options">
+        <div>
+            <input type="checkbox" id="randomize_option" name="randomize_all_games">
+            <label for="randomize_all_games"> Randomize all games?</label>
+        </div>
+    </div>
+    <div class="footer">Created by Adrian Albanese - <span><a href="https://github.com/bobhaha/Quad-2048">Github</a></span></div>
+</body>
+</html>

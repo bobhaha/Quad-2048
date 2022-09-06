@@ -1,0 +1,197 @@
+body{
+   background: #FAF8EF; 
+}
+
+.heading{
+    text-align: center;
+    color: #776E65;
+    font-family: Tahoma, sans-serif;
+}
+
+.score{
+    position: absolute;
+    margin-left: 80%;
+    margin-top: -3%;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    color: #776E65;
+}
+
+.game, .gameOver{
+    position: absolute;
+    display: grid; 
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    --gameboardSize: 800px;
+    width: var(--gameboardSize);
+    height: var(--gameboardSize);
+    left: 50%;
+    top: 50%;
+    margin: calc((var(--gameboardSize)/2)*-1) 0 0 calc((var(--gameboardSize)/2)*-1);
+}
+
+.gameOver > div{
+    border-radius: 5px;
+    margin: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    font-size: 250%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+#b1GameOver, #b2GameOver, #b3GameOver, #b4GameOver{
+    background-color: rgba(120, 120, 120, 0.3);
+    z-index: -1;
+}
+
+#board1{
+    background: #BBADA0;
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
+    grid-template-rows: 24.4% 24.4% 24.4% 24.4%;
+    margin: 1%;
+}
+
+#board1 > div{
+    background: #D2C0B2;
+    border-radius: 5px;
+    margin: 10% 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #776E65;
+    font-size: 175%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold; 
+}
+
+#board2{
+    background: #BBADA0;
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
+    grid-template-rows: 24.4% 24.4% 24.4% 24.4%;
+    margin: 1%;
+}
+
+#board2 > div{
+    background: #D2C0B2;
+    border-radius: 5px;
+    margin: 10% 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #776E65;
+    font-size: 175%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+
+#board3{
+    background: #BBADA0;
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
+    grid-template-rows: 24.4% 24.4% 24.4% 24.4%;
+    margin: 1%;
+}
+
+#board3 > div{
+    background: #D2C0B2;
+    border-radius: 5px;
+    margin: 10% 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #776E65;
+    font-size: 175%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+#board4{
+    background: #BBADA0;
+    border-radius: 5px;
+    display: grid; 
+    grid-template-columns: 24.4% 24.4% 24.4% 24.4%;
+    grid-template-rows: 24.4% 24.4% 24.4% 24.4%;
+    margin: 1%;
+}
+
+#board4 > div{
+    background: #D2C0B2;
+    border-radius: 5px;
+    margin: 10% 0 0 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #776E65;
+    font-size: 175%;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;  
+}
+
+.options{
+    position: absolute;
+    width: 40%;
+    top: 93%;
+    left: 50%;
+    margin-left: -20%;
+}
+
+.footer{
+    position: absolute;
+    width: 40%;
+    top: 96%;
+    left: 50%;
+    margin-left: -5%;
+}
+
+.two{
+    background: #EEE4DA !important;
+}
+
+.four{
+    background: #EDE0C8 !important;
+}
+
+.eight{
+    background: #F2B179 !important;
+}
+
+.sixteen{
+    background: #F59563 !important;
+}
+
+.thirtytwo{
+    background: #F67C60 !important;
+}
+
+.sixtyfour{
+    background: #F65E3B !important;
+}
+
+.onetwentyeight{
+    background: #EDCF73 !important;
+}
+
+.twofiftysix{
+    background: #EDCC62 !important;
+}
+
+.fivetwelve{
+    background: #EDC850 !important;
+}
+
+.onezerotwofour{
+    background: #EDC53F !important;
+}
+
+.twozerofoureight{
+    background: #EDC22D !important;
+}
