@@ -42,6 +42,7 @@ This game mode is activated when the player clicks the "randomize all games" but
 - Bugfix: There are issues with the score in normal mode
 - Bugfix: Fix page responsive issue when using a smaller screen < 1920 x 1080 resolution
 - Add feature: Make game touchscreen compatible
+- Add feature: Add animations when the tiles are moved on the board
 - Add feature: When in hard mode, score needs to be a sum of all 4 game board scores
 - Add feature: Add a highscore 
 - Add feature: Build a scoreboard so people can try to beat other players highscore
